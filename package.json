@@ -1,0 +1,39 @@
+{
+  "name": "giftbasket",
+  "version": "0.0.2",
+  "description": "Backend for gift idea saving web application",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissay94/giftbasket-be.git"
+  },
+  "keywords": [
+    "GraphQl"
+  ],
+  "author": "Melissa Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melissay94/giftbasket-be/issues"
+  },
+  "homepage": "https://github.com/melissay94/giftbasket-be#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.19.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dataloader-sequelize": "^2.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.5.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0"
+  }
+}
